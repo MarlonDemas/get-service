@@ -23,7 +23,7 @@ We hope to use the Google Places API to cater to handymen who need to factor in 
 
 ### Demo Live Link
 
-https://evanryk.github.io/wimthackthon-thevariables/
+https://marlondemas.github.io/get-service/index.html
 
 ### Issues Addressed
 
@@ -54,8 +54,8 @@ Factoring all supported modes of transport
 
 ## Contributors
 
+- Marlon Demas
 - Evan Christians
 - Mogammad Taariq Bardien
-- Marlon Demas
 - Kudakwashe Mukombachoto
 
