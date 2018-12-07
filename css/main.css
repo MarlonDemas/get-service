@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
+*, ::after, ::before {
+  box-sizing: border-box; }
+
+body {
+  font-weight: 300;
+  text-align: center;
+  color: #23CE6B;
+  padding: 0;
+  margin: 0;
+  font-size: 1.1rem;
+  font-family: 'Raleway'; }
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.5em 2em;
+  background-color: #23CE6B; }
+
+h1 {
+  display: flex;
+  align-items: center;
+  margin: 0.3em;
+  color: #fff;
+  font-weight: 700;
+  font-size: 4em; }
+
+h2 {
+  margin: 1em;
+  font-size: 3em; }
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: grey;
+  width: 80%; }
+
+.button {
+  font-size: 1.2em;
+  width: 8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.4em 2em;
+  border: 1px solid #23CE6B;
+  border-radius: 0.2em;
+  background-color: #fff;
+  box-shadow: 0 0 0em #23CE6B30;
+  transition: background-color 200ms ease-in-out, box-shadow 200ms ease-in-out, color 200ms ease-in-out; }
+  .button:hover {
+    box-shadow: 0 0 2em #23CE6B80;
+    background-color: #23CE6B;
+    color: #fff; }
+
+form {
+  width: 100%;
+  margin: 0;
+  font-size: 0.9em; }
+  form .grid-container {
+    padding: 0;
+    display: grid;
+    width: 100%;
+    margin: 0;
+    grid-template-columns: auto 9.6em; }
+    form .grid-container .column-span-2 {
+      grid-column: span 2; }
+    form .grid-container .span-2 {
+      grid-column: span 2;
+      grid-row: span 2; }
+    form .grid-container input {
+      text-align: left;
+      font-size: 0.9em;
+      width: 100%;
+      padding: 0.4em 1.6em;
+      border: 1px solid #dadada;
+      border-radius: 0.2em;
+      box-shadow: 0 0 0em #77777700;
+      transition: all 300ms ease-in-out; }
+      form .grid-container input:focus {
+        outline: none;
+        box-shadow: 0 0 0.5em #a12c2c30; }
+      form .grid-container input:hover {
+        box-shadow: 0 0 0.5em #a12c2c30; }
+    form .grid-container textarea {
+      font-size: 0.9em;
+      padding: 0.4em 1.6em;
+      border: 1px solid #dadada;
+      border-radius: 0.2em; }
+    form .grid-container span {
+      text-align: left;
+      text-indent: 1.5em;
+      grid-column: span 2; }
+
+::placeholder {
+  font-family: 'Raleway'; }
+
+.mapholder {
+  opacity: 0;
+  border: 1px solid #23CE6B;
+  border-radius: 3px;
+  box-shadow: 0 0 0em #23CE6B20;
+  width: 100%;
+  padding: 3em;
+  margin: 0 auto;
+  transition: all 700ms ease-in-out; }
+  .mapholder:hover {
+    box-shadow: 0 0 1em #23CE6B20; }
+
+.blurb {
+  opacity: 0;
+  width: fit-content;
+  font-size: 1.3em;
+  text-align: left;
+  transition: opacity 700ms ease-in-out; }
+  .blurb p {
+    margin: 0;
+    margin-bottom: 1em; }
+
+.grid-container {
+  font-size: 1.1em;
+  display: grid;
+  grid-template-columns: 500px 1fr;
+  grid-gap: 1em;
+  padding: 0 0 3em 0;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1920px; }
+
+.map {
+  box-shadow: 0 0 1em #23CE6B20;
+  border: 1px solid #23CE6B;
+  border-radius: 3px;
+  max-width: 500px;
+  max-height: 400px;
+  height: 80vw;
+  width: 100%;
+  margin: 0 auto;
+  transition: opacity 700ms ease-in-out; }
+
+.parallax {
+  background-image: url("../img/bg.jpg");
+  background-color: #04040490;
+  background-blend-mode: multiply;
+  padding: 7em 0;
+  font-size: 1.8em;
+  margin: 0; }
+  .parallax p {
+    width: 70%;
+    max-width: 768px;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto; }
+
+.still {
+  margin: 0; }
+
+footer {
+  text-align: left;
+  padding: 2em;
+  font-size: 1.4em;
+  background-color: #23CE6B; }
+  footer a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 300ms ease-in-out; }
+    footer a:hover {
+      color: black; }
+
+@media (max-width: 1024px) {
+  header {
+    padding: 3em 0; }
+
+  body {
+    font-size: 0.8em; }
+
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr); }
+
+  .button {
+    width: 100%; } }
+@media (max-width: 768px) {
+  h1 {
+    margin: 0 auto; }
+
+  footer {
+    text-align: center; } }
+
+/*# sourceMappingURL=main.css.map */

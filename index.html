@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Get Service</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+
+</head>
+<body>
+    <header>
+
+        <h1>Get Service</h1>
+
+    </header>
+
+
+    <main>
+        <section class="parallax" id="parallax">
+
+            <p>
+                A simple, effective and transparent solution to better connecting freelance professionals with their clients.
+            </p>
+
+        </section>
+
+        <div class="still">
+            <h2>
+                Service Provider Demo
+            </h2>
+
+            <div class="grid-container">
+    
+                <div class="map" id="mapholder"></div>
+                
+                <!-- <div class="blurb" id="one"></div> -->
+                
+                <form>
+                    <div class="grid-container">
+        
+                        <input id="startPoint" type="text" placeholder="Current Location">
+        
+                        <div class = "button" onclick="getLocation()"> 
+                            Detect
+                        </div>
+                        <input id="autoCompleteField" type="text" placeholder="Name & Surname"> 
+                        <input id="autoCompleteField" type="text" placeholder="Contact Nr."> 
+                        <textarea class = "span-2" name="" id="" cols="2" rows="6" placeholder="Skills & Expertise"></textarea>
+                        <input id="autoCompleteField" class = "column-span-2" type="text" placeholder="Rate (per hour / fixed)"> 
+                        <input type="text" placeholder="Begin working from">
+                        <input type="text" placeholder="to">
+                        <span id="fare1">Fare: </span>
+                    </div>
+                    
+                </form>
+    
+            </div>
+        </div>
+
+        <section class="parallax" id="parallax2"></section>
+        <div class="still">
+
+            <h2>
+                Client Demo
+            </h2>
+
+            <div class="grid-container">
+    
+                <div class="map" id="mapholder2"></div>
+                
+                <!-- <div class="blurb" id="one"></div> -->
+                
+                <form>
+                    <div class="grid-container">
+        
+                        <input id="startPoint" type="text" placeholder="Job Location">
+        
+                        <div class = "button"> 
+                            Detect
+                        </div>
+                        <input id="autoCompleteField" type="text" placeholder="Name & Surname"> 
+                        <input id="autoCompleteField" type="text" placeholder="Contact Nr."> 
+                        <textarea class = "span-2" name="" id="" cols="2" rows="6" placeholder="Job Description"></textarea>
+                        <!-- <input id="autoCompleteField" class = "column-span-2" type="text" placeholder="Rate (per hour / fixed)">  -->
+                        <input type="text" placeholder="Hiring from">
+                        <input type="text" placeholder="to">
+                        <span id="fare1">Fare: </span>
+                        <span id="rate">Rate: </span>
+                    </div>
+                    
+                </form>
+    
+            </div>
+        </div>
+
+
+    </main>
+
+    <section class="parallax" id="parallax3"></section>
+
+    <footer>
+        <a href="mailto:evanryk@gmail.com">
+            
+            &copy theVariables 2018
+
+        </a>
+    </footer>
+
+    
+    <script src="js/main.js"></script>
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDONxQ7hcPgLefkraFbTw9HotYs5T6Inzs&libraries=places"></script>
+
+</body>
+</html>
